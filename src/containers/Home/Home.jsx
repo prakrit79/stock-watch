@@ -1,4 +1,6 @@
 import React from 'react'
+import NewsSection from '../NewsSection/NewsSection';
+import './Home.css'
 
 class Home extends React.Component{
     constructor(props){
@@ -8,7 +10,18 @@ class Home extends React.Component{
 
     render(){
         return(
-            <h1>HOME page</h1>
+            <div className='home-container'>
+                <h1>Stockify</h1>
+                <div className='main-content'>
+                    <div className='news-section'>
+                        <h2>Latest News</h2>
+                        <NewsSection newsCategory={'general'}/>
+                    </div>
+                    <div className='trending-stocks'>
+                        <h2>Trending Stocks</h2>
+                    </div>
+                </div>
+            </div>
         )  
     }
 }
