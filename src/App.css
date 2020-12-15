@@ -6,33 +6,8 @@
   color: #61dafb;
 }
 
-.nav-bar{
-  padding: 10px;
-}
 
 .text-link {
   color: inherit;
   text-decoration: none;
-}
-
-.nav-bar{
-  background-color: thistle;
-  width: auto;
-  text-align: center;
-  position: relative;
-}
-
-.nav-bar > ul > li {
-  list-style: none;
-  display: inline-table;
-  margin: 1%;
-  background-color: wheat;
-}
-
-.search-bar{
-  width: fit-content;
-  background-color: white;
-  position: absolute;
-  top: 50%;
-  left: 80%;
 }
