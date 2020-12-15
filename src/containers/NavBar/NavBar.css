@@ -1,0 +1,14 @@
+.nav-bar{
+    background-color: thistle;
+    width: auto;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+  }
+  
+  .nav-bar > ul > li {
+    list-style: none;
+    display: inline-table;
+    margin: 1%;
+    background-color: wheat;
+  }
