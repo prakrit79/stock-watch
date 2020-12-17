@@ -1,0 +1,16 @@
+table, td {
+    border: 1px solid black;
+}
+
+caption{
+    font-size: large;
+    color: blue;
+}
+
+.gain{
+    background-color: rgb(121, 209, 121);
+}
+
+.loss{
+   background-color: rgb(221, 90, 90);
+}

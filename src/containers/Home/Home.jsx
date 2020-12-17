@@ -1,13 +1,19 @@
 import React from 'react'
+import Dashboard from '../Dashboard/Dashboard';
+import Quote from '../Quote/Quote'
 import NewsSection from '../NewsSection/NewsSection';
 import './Home.css'
 
 const Home = (props) => {
     let searchResult;
         if(props.searchQuery !== ''){
-            searchResult = (<div>{`Searching for ${props.searchQuery}`}</div>)
+            searchResult = 
+            (<div className="search-body">
+                <Dashboard companyLabel={props.searchQuery}/>
+                <Quote companyLabel={props.searchQuery}/>
+            </div>)
         }else{
-            searchResult = (<div>Search for stocks using the search bar</div>)
+            searchResult = (<></>)
         }
         return(
             <div className='home-container'>

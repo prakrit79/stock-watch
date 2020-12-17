@@ -13,10 +13,18 @@
     background-color:lemonchiffon;
     width: 50%;
     outline: lightblue;
+    padding-right: 5px;
 }
 
 .trending-stocks{
     float: right;
-    background-color: turquoise;
-    width: 50%
+    background-color: white;
+    width: 50%;
+    outline: lightblue;
+    padding-left: 5px;
+}
+
+.search-body{
+    background-color: white;
+    margin: 20px;
 }

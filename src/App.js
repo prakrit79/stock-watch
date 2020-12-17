@@ -15,7 +15,6 @@ export class App extends React.Component {
   }
 
   performSearch = (queryString) => {
-    console.log('Performing search with',queryString)
     this.setState({searchQuery:queryString});
   }
 
