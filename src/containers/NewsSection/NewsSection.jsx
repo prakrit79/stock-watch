@@ -28,7 +28,7 @@ class NewsSection extends React.Component{
             const topTenNews = newsData.slice(0,10);
             return(
                     topTenNews.map((newsItem,index)=>{
-                        return <InfoTile id={index} info={newsItem}/>
+                        return <InfoTile key={newsItem} id={index} info={newsItem}/>
                     })
             )
         }    

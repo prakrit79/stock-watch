@@ -14,7 +14,6 @@ class DashboardContainer extends React.Component{
                 <Dashboard companyLabel={'TSLA'} />
                 <Dashboard companyLabel={'AAPL'} />
                 <Dashboard companyLabel={'NIO'} />
-                <Dashboard companyLabel={'AC.TO'} />
             </div>
         )  
     }
