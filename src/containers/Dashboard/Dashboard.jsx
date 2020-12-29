@@ -9,11 +9,11 @@ class Dashboard extends React.Component{
     }
 
     componentDidMount(){
-        getCompanyProfile(this.props.companyLabel).then((result)=>{
-            console.log(result);
+        getCompanyProfile(this.props.companyLabel).then((results)=>{
+            console.log('Dashboard results',results);
             this.setState({
                 isLoaded: true,
-                companyData: result.data
+                companyData: {profileData:results[0].data, priceData: results[1].data}
             })
         })
     }
